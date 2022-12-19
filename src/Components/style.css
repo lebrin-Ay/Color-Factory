@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+/* Form CSS */
+.form-input label, 
+.form-color label {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.form-input input,
+.form-color input {
+    margin-left: 2rem;
+    width: 19vw;
+    height: 6vh;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* Button CSS */
+.btn-color {
+    background-color: blue;
+    border: none;
+    color: #FFF;
+    height: 3rem;
+    font-size: 1.3rem;
+    width: 10vw;
+    border-radius: 5px;
+    margin-left: 8rem;   
+}
+
+.btn-color:hover {
+    cursor: pointer;
+    background-color: #E684AE;
+}
+
+/* Home CSS */
+.main-container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.heading {
+    height: 25vh;
+    background-color: rgb(255, 153, 170);
+}
+
+.heading h2 {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.select-container h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.color-list li {
+    list-style: none;
+    padding: 1rem;
+}
+
+/* Red Page */
+.red-page {
+    text-align: center;
+    height: 100vh;
+}
+
+.red-page h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+/* Green Page */
+.green-page {
+    text-align: center;
+    height: 100vh;
+}
+
+.green-page h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+/* Blue Page */
+.blue-page {
+    text-align: center;
+    height: 100vh;
+}
+
+.blue-page h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+/* AddColor Page */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    margin-top: 12rem;
+}
+
+.form-container p {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    margin-left: 8rem;
+}
+
